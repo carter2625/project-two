@@ -73,11 +73,7 @@ body {
 	font-size: 16px;
 }
 
-.badges-container {
-	display: flex;
-	padding: 20px;
-  margin: auto;
-}
+
 
 .badge {
 	background-color: #4CAF50;
@@ -133,6 +129,84 @@ header {
   overflow-y: scroll;
   height: 100vh;
 }
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+ * {
+	 box-sizing: border-box;
+
+}
+ body {
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+	 height: 100vh;
+	 font-family: 'Open Sans', sans-serif;
+}
+ .cardTitle {
+	 text-decoration: none;
+}
+ .title {
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 300;
+}
+
+
+
+ .wrapper {
+   display: inline-block;
+	 width: 40%;
+	 position: relative;
+	 overflow: hidden;
+	 border-radius: 10px;
+	 border: 2px solid #fff;
+	 border-color: #3e98d3;
+}
+  .data {
+	 float: right;
+	 width: 60%;
+	 height: 100%;
+	 border-left: 20px solid  #3e98d3;
+}
+ .data .content {
+	 padding: 10px;
+	 position: relative;
+	 z-index: 1;
+}
+ .author {
+	 font-size: 15px;
+	 background-color: #cfe6f4;
+
+   
+   
+   
+  
+}
+ .title {
+	 margin-top: 10px;
+   
+}
+ .text {
+	 height: 20px;
+	 margin: 0;
+}
+
+ .image {
+	 float: right;
+	 width: 40%;
+}
+ .book-image {
+	 width: 60%;
+	 display: block;
+	 height: 80%;
+	 margin-top: 40px;
+   margin-left: 45px;
+	 margin-bottom: auto;
+}
+
+
+
+ 
 </style>
 
 <title>project-two</title>
@@ -156,13 +230,23 @@ header {
         </div>
       </div>
       <br>
-      <div class="badges-container">
-        <div class="badge">Badge 1</div>
-        <div class="badge">Badge 2</div>
-        <div class="badge">Badge 3</div>
-        <div class="badge">Badge 4</div>
+
+    <div class="wrapper">
+      <div class="image">
+        <img class="book-image"     src="https://badgesapp.psu.edu/uploads/badge/image/337/APA_Style.png"/>
+       </div>
+       
+       <div class="data">
+         <div class="content">
+           <div class="author">Technology and Information</div>
+           <h1 class="title">APA Style Citations:   Introduction</h1>
+           <p class="text">Creator: Victoria Bush</p>
+         </div>
+       </div>  
       </div>
-    </div>
+
+   
+      
     <div id="app">
       
     </div>
